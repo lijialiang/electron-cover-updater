@@ -71,7 +71,6 @@ updater.update = function ( version ) {
                 console.error( e );
             })
     });
-
 }
 
 

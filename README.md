@@ -1,1 +1,1 @@
-# electron-updater
+# electron-cover-updater
