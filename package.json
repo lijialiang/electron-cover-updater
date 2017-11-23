@@ -1,0 +1,26 @@
+{
+  "name": "electron-cover-updater",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilijialiang/electron-cover-updater.git"
+  },
+  "author": "lijialiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lilijialiang/electron-cover-updater/issues"
+  },
+  "homepage": "https://github.com/lilijialiang/electron-cover-updater#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "del": "^3.0.0",
+    "mkdirp": "^0.5.1",
+    "url-download": "0.0.8",
+    "yauzl": "^2.9.1"
+  }
+}
