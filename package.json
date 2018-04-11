@@ -1,6 +1,6 @@
 {
   "name": "electron-cover-updater",
-  "version": "0.0.2",
+  "version": "0.0.8",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,9 +18,10 @@
   "homepage": "https://github.com/lilijialiang/electron-cover-updater#readme",
   "dependencies": {
     "axios": "^0.17.1",
+    "compare-versions": "^3.1.0",
     "del": "^3.0.0",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "0.5.1",
     "url-download": "0.0.8",
-    "yauzl": "^2.9.1"
+    "yauzl": "2.9.1"
   }
 }

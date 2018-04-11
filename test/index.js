@@ -2,7 +2,7 @@
 
 const path = require('path');
 
-const updater = require('./index');
+const updater = require('../index');
 
 updater.config({
     root: path.resolve( __dirname, './temp/' ),
@@ -22,6 +22,6 @@ updater.check().then(( { version, isNeedUpdate } ) => {
     }
 });
 
-updater.updating(( msg ) => {
-    console.log( msg );
+updater.updating(( msg, progress ) => {
+    console.log( msg, progress );
 })
